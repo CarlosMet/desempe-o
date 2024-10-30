@@ -19,7 +19,7 @@ loginForm.addEventListener("submit", (e)=>{
 
         if(user === "admin" && password === "1234"){
             console.log("logged")
-            window.location.href = "taxes.html"
+            window.location.href = "taxes/taxes.html"
         }else{
             console.log("wrong credentials")
             attemptsCounter++
